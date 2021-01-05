@@ -20,7 +20,7 @@ Neste repositório encontram-se os arquivos dos exercícios realisados na [Alura
 
 9-Testes automatizados-TDD com Python
 
-## [Cursos de Data science][3]
+## [Cursos de Data Science][3]
 Python Pandas-Tratando e analisando dados
 
 Regressao Linear-Tecnicas avancadas de modelagem
