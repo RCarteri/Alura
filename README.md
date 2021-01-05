@@ -1,5 +1,5 @@
 # Descrição do repositório:
-Neste repositório encontram-se os arquivos dos exercícios realisados na [Alura][1]
+Neste repositório encontram-se os arquivos dos exercícios realizados na [Alura][1]
 
 ## [Formação Python][2]
 1-Curso Python 3-Introducao nova versao da linguagem
