@@ -1,0 +1,42 @@
+-----Pacotes necessários para rodar o projeto------
+
+Python:
+	https://www.python.org/downloads/
+	
+Postgres:
+	https://www.postgresql.org/download/
+	
+Criar um ambiente virtual para o projeto
+	python -m venv ./venv
+	
+Ativar o ambiente (EX: Windows)
+	\Users\ricardo.uehlein\Documents\cursos-alura\python\Django\venv\Scripts\activate.bat
+	
+No terminal executar:
+	pip install django (framework python)
+	pip install pylint-django
+	pip install psycopg2  
+	pip install psycopg2-binary (pacote do Postgres)  
+	pip install Pillow
+	
+Subir o servidor para visualizar o projeto
+	python manage.py runserver
+	
+	Estará disponível no link:
+		http://127.0.0.1:8000/
+----Comandos internos do django para criar o projeto, não é necessário executar pois o projeto já possui essas informações-------
+Criar um projeto no django chamado alurareceita
+	django-admin startproject alurareceita
+	
+Criar um app chamado receitas e pessoas
+	python manage.py startapp receitas
+	python manage.py startapp pessoas
+	
+	
+	python manage.py collectstatic
+	
+Criar as migrações
+	python manage.py makemigrations
+	
+Enviar as mirações para o banco de dados
+	python manage.py migrate
