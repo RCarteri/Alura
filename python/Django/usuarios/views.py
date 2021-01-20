@@ -3,6 +3,11 @@ from django.shortcuts import render, redirect
 def cadastro(request):
     if request.method == 'POST':
         print('Usuário criado com sucesso')
+        nome = request.POST['nome']
+        email = request.POST['email']
+        password = request.POST['password']
+        password2 = request.POST['password2']
+        print(nome, email, password, password2)
         return redirect('login')
     else:
         return render(request, 'usuarios/cadastro.html')
