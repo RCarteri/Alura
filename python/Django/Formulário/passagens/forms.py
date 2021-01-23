@@ -21,7 +21,6 @@ class PassagemForms(forms.ModelForm):
             'data_ida':DatePicker(),
             'data_volta':DatePicker()
         }
-    email = forms.EmailField(label='Email', max_length=150)
     
     def clean(self):
         origem = self.cleaned_data.get('origem')
@@ -41,3 +40,7 @@ class PassagemForms(forms.ModelForm):
                 self.add_error(erro, mensagem_erro)
         return self.cleaned_data
     
+class PessoaForms(forms.ModelForm):
+    class Meta:
+        model = Pessoa
+        exclude = ['nome']
