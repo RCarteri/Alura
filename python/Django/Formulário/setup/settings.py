@@ -32,6 +32,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'widget_tweaks',
+    'tempus_dominus',
     'passagens',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -121,3 +123,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+TEMPUS_DOMINUS_LOCALIZE = True
