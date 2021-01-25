@@ -10,7 +10,7 @@ Criar um ambiente virtual para o projeto
 	python -m venv ./venv
 	
 Ativar o ambiente (EX: Windows)
-	\Users\ricardo.uehlein\Documents\cursos-alura\python\Django\venv\Scripts\activate.bat
+	venv\Scripts\activate.bat
 	
 No terminal executar:
 	pip install django (framework python)
@@ -18,6 +18,8 @@ No terminal executar:
 	pip install psycopg2  
 	pip install psycopg2-binary (pacote do Postgres)  
 	pip install Pillow
+	pip install django-widget-tweaks
+	pip install django-tempus-dominus
 	
 Subir o servidor para visualizar o projeto
 	python manage.py runserver
